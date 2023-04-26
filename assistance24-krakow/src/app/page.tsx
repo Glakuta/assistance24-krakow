@@ -1,10 +1,16 @@
+import NavBar from '@/components/NavBar'
+import TopBar from '@/components/Topbar'
 import React from 'react'
+
 
 type Props = {}
 
 const Home: React.FC = (props: Props) => {
   return (
-    <div>Home</div>
+   <div>
+    <TopBar />
+    <NavBar />
+   </div>
   )
 }
 

@@ -4,8 +4,8 @@ type Props = {}
 
 const TopBar = (props: Props) => {
   return (
-    <div className='flex flex-row justify-around pt-4 pb-4 font-sans text-xl font-bold bg-primary-yellow'> 
-        <div className='flex flex-row items-start justify-between ' >
+    <div className='flex flex-row justify-around w-full  pt-4 pb-4 text-xl font-bold bg-primary-yellow'> 
+        <div className='flex flex-row items-start justify-between h' >
           <AiFillPhone  className='m-auto'/>
           <p className='ml-1 mr-4'>tel: 555-444-555</p>
           <AiFillMail className='m-auto' />

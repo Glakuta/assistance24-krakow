@@ -1,25 +1,28 @@
 /** @type {import('tailwindcss').Config} */
-
 module.exports = {
   content: [
-    './src/pages/**/*.{js,ts,jsx,tsx}',
-    './src/components/**/*.{js,ts,jsx,tsx}',
-    './src/app/**/*.{js,ts,jsx,tsx}',
+    "./app/**/*.{js,ts,jsx,tsx,mdx}", // Note the addition of the `app` directory.
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+
+    // Or if using `src` directory:
+    "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    colors: {
-      'primary-yellow': '#FFCC01'
-    },
-    extend: {
-      fontFamily: {
-        'inter': ['Inter']
+    fontFamily: {
+      'inter': ['Inter']
 
-      },
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
+    },
+    colors: {
+      'primary-bg': '#F9F6EE',
+      'primary-yellow': '#FFCC01',
+      'white': '#FFFFFf',
+      'blue': '#0084FF',
+      'grey': '#323232'
+    },
+
+    backgroundImage: {
+      'hero': "url('/hero.jpg')",
     },
   },
   plugins: [],

@@ -1,5 +1,10 @@
+import Footer from '@/components/Footer'
 import NavBar from '@/components/NavBar'
 import TopBar from '@/components/Topbar'
+import AboutUs from '@/sections/AboutUs'
+import Contact from '@/sections/Contact'
+import HeroSection from '@/sections/HeroSection'
+import OurServices from '@/sections/OurServices'
 import React from 'react'
 
 
@@ -7,9 +12,13 @@ type Props = {}
 
 const Home: React.FC = (props: Props) => {
   return (
-   <div>
+   <div className='box-border w-full h-full overflow-x-hidden  bg-primary-bg'>
     <TopBar />
-    <NavBar />
+    <HeroSection />
+    <AboutUs />
+    <OurServices />
+    <Contact />
+    <Footer /> 
    </div>
   )
 }

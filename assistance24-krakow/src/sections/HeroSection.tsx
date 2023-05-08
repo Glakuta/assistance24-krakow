@@ -1,21 +1,26 @@
-
 import CallButton from '@/components/CallButton'
 import React from 'react'
+import ScrollButton from '@/components/ScrollButton'
+import NavBar from '@/components/NavBar'
+
 
 type Props = {}
 
 const HeroSection = (props: Props) => {
+ 
   return (
-    <div className='p-9 flex-col w-full'>
-      <div className='flex-col items-center justify-center h-96'>
-      <h1 className='p-24 mb-6 flex items-center justify-center text-3xl font-bold'>Pomoc Drogowa Kraków</h1>
+    <div className='flex-col w-full pb-28'>
+      <div className='flex-col items-center justify-center  min-h-[600px] bg-hero bg-no-repeat bg-cover bg-opacity-60'>
+        <NavBar />
+      <h1 className='flex items-center justify-center p-24 mb-6 mt-10 text-3xl font-bold md:p-16 whitespace-nowrap text-white'>Pomoc Drogowa Kraków</h1>
       <CallButton />
+      <ScrollButton />
       </div>
-      <div className='mt-14 p-6 flex flex-row justify-around items-center w-full bg-primary-yellow '>
-        <h3 className='font-bold text-2xl'>AUTO-LAWETA</h3>
-        <h3 className='font-bold text-2xl'>HOLOWANIE</h3>
-        <h3 className='font-bold text-2xl'>POMOC</h3>
-        <h3 className='font-bold text-2xl'>ASSISTANCE</h3>
+      <div className='flex flex-col items-center justify-around max-w-full p-6 md:flex-row bg-primary-yellow '>
+        <h3 className='text-2xl font-bold'>AUTO-LAWETA</h3>
+        <h3 className='text-2xl font-bold'>HOLOWANIE</h3>
+        <h3 className='text-2xl font-bold'>POMOC</h3>
+        <h3 className='text-2xl font-bold'>ASSISTANCE</h3>
       </div>
     </div>
     

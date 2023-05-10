@@ -12,7 +12,7 @@ const HeroSection = (props: Props) => {
     <div className='flex-col w-full pb-28'>
       <div className='flex-col items-center justify-center  min-h-[600px] bg-hero bg-no-repeat bg-cover bg-opacity-60'>
         <NavBar />
-      <h1 className='flex items-center justify-center p-24 mb-6 mt-10 text-3xl font-bold md:p-16 whitespace-nowrap text-white'>Pomoc Drogowa Kraków</h1>
+      <h1 className='flex items-center justify-center p-24 mt-10 mb-6 text-3xl font-bold text-white md:p-16 whitespace-nowrap'>Pomoc Drogowa Kraków</h1>
       <CallButton />
       <ScrollButton />
       </div>

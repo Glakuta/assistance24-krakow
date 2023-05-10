@@ -22,7 +22,7 @@ const TopBar = (props: Props) => {
     </div>
     <FontAwesomeIcon icon={faBars} onClick={() => setOpen(!open)} className='block w-12 h-12 mr-2 transition duration-300 ease-in-out delay-150 md:hidden hover:-translate-y-1 hover:scale-110'/>
     </div>
-    <div className={`${open ? "flex" : "hidden"} fixed flex-col items-center justify-center w-full h-80 bg-primary-yellow md:hidden`}>
+    <div className={`${open ? "flex" : "hidden"} relative z-20 fixed flex-col items-center justify-center w-full h-80 bg-primary-yellow md:hidden`}>
     <FontAwesomeIcon icon={faXmark} onClick={() => setOpen(!open)} className='block w-12 h-12 ml-64 transition duration-300 ease-in-out delay-150 md:hidden hover:-translate-y-1 hover:scale-110'/>
     <nav >
             <ul className='flex-col items-center justify-center mt-8 text-center lg:hidden '>

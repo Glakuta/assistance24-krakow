@@ -9,7 +9,7 @@ type Props = {}
 const OurServices = (props: Props) => {
   return (
     <div className='flex flex-col items-center'>
-      <h3 className='flex items-center justify-center p-24 mb-6 text-3xl font-bold'>O nas</h3>
+      <h3 className='flex items-center justify-center p-24 mb-6 text-3xl font-bold'>Nasze Usługi</h3>
       <div className='flex flex-col items-center justify-around md:flex-row'>
         <div className='flex flex-col items-center justify-around mt-10'>
         <FontAwesomeIcon icon={faCar} className='w-16 h-16'/>

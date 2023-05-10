@@ -8,6 +8,7 @@ type Props = {
 const AboutUs = (props: Props) => {
   return (
     <div className='box-border flex flex-col'>
+      <h3 className='flex items-center justify-center p-24 mb-6 text-3xl font-bold'>O nas</h3>
         <div className='flex flex-col items-center justify-around md:flex-row mt-36'>
            
                 <Image src={'/Image6.jpg'} alt='zdjęcie-pomoc-drogowa' width='600'

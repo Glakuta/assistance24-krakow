@@ -4,10 +4,10 @@ type Props = {}
 
 const NavBar = (props: Props) => {
   return (
-    <div className='flex flex-row justify-between mt-16 p-5 '>
+    <div className='relative flex flex-row justify-between p-5 mt-16 '>
         <div>Logo</div>
         <nav >
-            <ul className='flex-row items-center hidden lg:flex mt-3 '>
+            <ul className='flex-row items-center hidden mt-3 lg:flex '>
                 <li><a href='' className='pr-3 text-2xl font-semibold text-white hover:text-primary-yellow active:hover:text-primary-yellow'>Strona główna</a></li>
                 <li><a href='' className='pr-3 text-2xl font-semibold text-white hover:text-primary-yellow active:hover:text-primary-yellow'>Oferta</a></li>
                 <li><a href='' className='pr-3 text-2xl font-semibold text-white hover:text-primary-yellow active:hover:text-primary-yellow'>Mobilny mechanik</a></li>

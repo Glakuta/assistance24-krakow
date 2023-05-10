@@ -1,4 +1,5 @@
 import CallButton from '@/components/CallButton'
+import Image from 'next/image'
 import React from 'react'
 import ScrollButton from '@/components/ScrollButton'
 import NavBar from '@/components/NavBar'
@@ -11,8 +12,12 @@ const HeroSection = (props: Props) => {
   return (
     <div className='flex-col w-full pb-28'>
       <div className='flex-col items-center justify-center  min-h-[600px] bg-hero bg-no-repeat bg-cover bg-opacity-60'>
+        <div className='relative z-10 bg-black'>
+          <Image src='/hero.jpg' alt='Pomoc drogowa Kraków' fill className='z-0 backdrop-brightness-50' />
+        </div>
+      
         <NavBar />
-      <h1 className='flex items-center justify-center p-24 mt-10 mb-6 text-3xl font-bold text-white md:p-16 whitespace-nowrap'>Pomoc Drogowa Kraków</h1>
+      <h1 className='relative z-20 flex items-center justify-center p-24 mt-10 mb-6 text-3xl font-bold text-white md:p-16 whitespace-nowrap'>Pomoc Drogowa Kraków</h1>
       <CallButton />
       <ScrollButton />
       </div>

@@ -9,7 +9,7 @@ const TopBar = (props: Props) => {
 
   const [open, setOpen] = useState(false)
   return (
-    <div>
+    <div className='relative z-20'>
       <div className='fixed flex flex-row justify-around w-full pt-4 pb-4 text-xl font-bold bg-primary-yellow '> 
     <div className='flex flex-row items-start justify-between h' >
       <AiFillPhone  className='hidden m-auto md:block'/>

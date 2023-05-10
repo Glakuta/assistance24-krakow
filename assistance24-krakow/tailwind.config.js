@@ -18,7 +18,8 @@ module.exports = {
       'primary-yellow': '#FFCC01',
       'white': '#FFFFFf',
       'blue': '#0084FF',
-      'grey': '#323232'
+      'grey': '#323232',
+      'black': '#000000'
     },
 
     backgroundImage: {

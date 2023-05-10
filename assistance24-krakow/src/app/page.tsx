@@ -12,7 +12,7 @@ type Props = {}
 
 const Home: React.FC = (props: Props) => {
   return (
-   <div className='box-border w-full h-full overflow-x-hidden  bg-primary-bg'>
+   <div className='box-border w-full h-full overflow-x-hidden scroll-smooth bg-primary-bg'>
     <TopBar />
     <HeroSection />
     <AboutUs />

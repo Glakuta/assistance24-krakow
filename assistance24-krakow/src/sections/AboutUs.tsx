@@ -59,7 +59,7 @@ const AboutUs = (props: Props) => {
         <Image src={'/Image1.jpg'} alt='zdjęcie-pomoc-drogowa' width='500' height='300' className='mt-12 rounded shadow-2xl md:mt-0'/>
         </div>
         <div className='flex flex-row items-center justify-around w-full p-6 mt-14 bg-primary-yellow '>
-        <h3 className='text-4xl font-extrabold'>Całodobowa pomoc drogowa - Kraków</h3>
+        <h3 className='text-4xl font-extrabold'>Całodobowa pomoc drogowa - Auto Pomoc Kraków</h3>
       </div>
       <div className='flex flex-col items-center justify-around mt-12 md:flex-row'>
       <Image src={'/Image7.jpg'} alt='zdjęcie-pomoc-drogowa' width='1280' height='720' className='shadow-2xl '/>

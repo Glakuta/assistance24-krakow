@@ -17,9 +17,9 @@ const HeroSection = (props: Props) => {
       <ScrollButton />
       </div>
       <div className='flex flex-col items-center justify-around max-w-full p-6 md:flex-row bg-primary-yellow '>
-        <h3 className='text-2xl font-bold'>AUTO-LAWETA</h3>
+        <h3 className='text-2xl font-bold'>LAWETA KRAKÓW </h3>
         <h3 className='text-2xl font-bold'>HOLOWANIE</h3>
-        <h3 className='text-2xl font-bold'>POMOC</h3>
+        <h3 className='text-2xl font-bold'>AUTO POMOC</h3>
         <h3 className='text-2xl font-bold'>ASSISTANCE</h3>
       </div>
     </div>

@@ -21,7 +21,7 @@ const Footer = (props: Props) => {
         <div>
         <div className='flex flex-row items-center justify-around w-full p-6 mt-14 '>
         <h3 className='text-2xl font-bold text-white'>AUTO-LAWETA</h3>
-        <h3 className='text-2xl font-bold text-white'>HOLOWANIE</h3>
+        <h3 className='text-2xl font-bold text-white'>HOLOWANIE KRAKÓW</h3>
         <h3 className='text-2xl font-bold text-white'>POMOC</h3>
         <h3 className='text-2xl font-bold text-white'>ASSISTANCE</h3>
       </div>

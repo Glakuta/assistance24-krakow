@@ -8,7 +8,7 @@ type Props = {
 const AboutUs = (props: Props) => {
   return (
     <div className='box-border flex flex-col'>
-      <h3 className='flex items-center justify-center p-24 mb-6 text-3xl font-bold'>O nas</h3>
+      <h3 className='flex items-center justify-center mt-24 mb-6 text-3xl font-bold'>O nas</h3>
         <div className='flex flex-col items-center justify-around md:flex-row mt-36'>
            
                 <Image src={'/Image6.jpg'} alt='zdjęcie-pomoc-drogowa' width='600'
@@ -59,7 +59,7 @@ const AboutUs = (props: Props) => {
         <Image src={'/Image5.jpg'} alt='zdjęcie-pomoc-drogowa' width='500' height='360' className='rounded shadow-2xl' />
         <Image src={'/Image1.jpg'} alt='zdjęcie-pomoc-drogowa' width='500' height='300' className='mt-12 rounded shadow-2xl md:mt-0'/>
         </div>
-        <div className='flex flex-row items-center justify-around w-full p-6 mt-14 bg-primary-yellow '>
+        <div className='flex flex-row items-center justify-around w-full p-6 text-center mt-14 bg-primary-yellow '>
         <h3 className='text-4xl font-extrabold'>Całodobowa pomoc drogowa - Auto Pomoc Kraków</h3>
       </div>
       <div className='flex flex-col items-center justify-around mt-12 md:flex-row'>

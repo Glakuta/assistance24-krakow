@@ -22,7 +22,7 @@ module.exports = {
     },
 
     backgroundImage: {
-      'hero': "url('/hero.jpg')",
+      'hero': "url('/image8.webp')",
     },
   },
   plugins: [],

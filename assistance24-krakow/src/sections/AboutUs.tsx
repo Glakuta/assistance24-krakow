@@ -14,7 +14,7 @@ const AboutUs = (props: Props) => {
                 <Image src={'/Image6.jpg'} alt='zdjęcie-pomoc-drogowa' width='600'
                 height='420' className='rounded shadow-2xl'/>
             
-            <div className='max-w-lg mt-20'>
+            <div className='max-w-lg mt-20 ml-10 mb-10'>
             <p>Nasza firma to ceniony lider w branży pomocy drogowej,
                 którego priorytetem jest zapewnienie pełnego wsparcia kierowcom na drodze. Od lat dostarczamy szybką, skuteczną i profesjonalną pomoc w sytuacjach awaryjnych i wypadkach.
                 Nasz niezawodny zespół doświadczonych techników drogowych jest gotowy, by sprostać każdemu wyzwaniu i zapewnić naszym klientom spokój umysłu w trudnych momentach.</p>
@@ -36,7 +36,7 @@ const AboutUs = (props: Props) => {
 
         </div>
         <div className='flex flex-col items-center justify-around md:flex-row mt-36'>
-        <div className='max-w-lg mb-20'>
+        <div className='max-w-lg mb-20 ml-10 mb-10'>
         <p>Dysponujemy specjalistycznymi naczepami oraz doświadczonymi kierowcami, którzy dbają o bezpieczeństwo i stan Twojego cennego ładunku.
           Niezależnie od rozmiaru i wagi pojazdu, możesz mieć pewność, że zostanie on przetransportowany z najwyższą starannością i precyzją.
           Nasze usługi transportowe są idealne dla firm logistycznych, przewoźników,

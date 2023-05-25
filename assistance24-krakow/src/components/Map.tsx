@@ -22,7 +22,7 @@ const Map = (props: Props) => {
    return (
    <div>
     <LoadScript
-        googleMapsApiKey=process.env.GOOGLE_KEY
+        googleMapsApiKey="AIzaSyCrNV9GVKnON8t2S3kZUfZf4QunS3TpZb0"
       >
         <GoogleMap
           mapContainerStyle={containerStyle}

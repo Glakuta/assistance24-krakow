@@ -13,7 +13,7 @@ const HeroSection = (props: Props) => {
     <div className='flex-col w-full pb-28'>
       <div className='flex-col items-center justify-center  min-h-[600px] bg-hero bg-no-repeat bg-cover bg-opacity-60'>
         <div className='relative z-10 bg-black'>
-          <Image src='/image8.webp' alt='Pomoc drogowa Kraków' fill className='z-0 backdrop-brightness-50' />
+          <Image src='https://assistance24krakow.s3.eu-central-1.amazonaws.com/IMG-20230525-WA0002+(2).jpg' alt='Pomoc drogowa Kraków' fill className='z-0 backdrop-brightness-50' />
         </div>
       
         <NavBar />

@@ -11,7 +11,7 @@ const AboutUs = (props: Props) => {
       </h3>
       <div className="flex flex-col items-center justify-around md:flex-row mt-36">
         <Image
-          src={"/Image6.jpg"}
+          src="https://assistance24krakow.s3.eu-central-1.amazonaws.com/IMG-20230525-WA0000.jpg"
           alt="zdjęcie-pomoc-drogowa"
           width="600"
           height="420"
@@ -73,7 +73,7 @@ const AboutUs = (props: Props) => {
           </p>
         </div>
         <Image
-          src={"/Image2.jpg"}
+          src="https://assistance24krakow.s3.eu-central-1.amazonaws.com/IMG-20230525-WA0007.jpg"
           alt="zdjęcie-pomoc-drogowa"
           width="400"
           height="420"
@@ -82,14 +82,14 @@ const AboutUs = (props: Props) => {
       </div>
       <div className="flex flex-col items-center justify-around md:flex-row mt-36">
         <Image
-          src={"/Image3.jpg"}
+          src="https://assistance24krakow.s3.eu-central-1.amazonaws.com/IMG-20230525-WA0003.jpg"
           alt="zdjęcie-pomoc-drogowa"
           width="500"
           height="360"
           className="rounded shadow-2xl"
         />
         <Image
-          src={"/Image4.jpg"}
+          src="https://assistance24krakow.s3.eu-central-1.amazonaws.com/IMG-20230525-WA0001.jpg"
           alt="zdjęcie-pomoc-drogowa"
           width="500"
           height="360"
@@ -98,14 +98,14 @@ const AboutUs = (props: Props) => {
       </div>
       <div className="flex flex-col items-center justify-around mt-12 md:flex-row">
         <Image
-          src={"/Image5.jpg"}
+          src="https://assistance24krakow.s3.eu-central-1.amazonaws.com/IMG-20230525-WA0004.jpg"
           alt="zdjęcie-pomoc-drogowa"
           width="500"
           height="360"
           className="rounded shadow-2xl"
         />
         <Image
-          src={"/Image1.jpg"}
+          src="https://assistance24krakow.s3.eu-central-1.amazonaws.com/IMG-20230525-WA0003.jpg"
           alt="zdjęcie-pomoc-drogowa"
           width="500"
           height="300"
@@ -119,7 +119,7 @@ const AboutUs = (props: Props) => {
       </div>
       <div className="flex flex-col items-center justify-around mt-12 md:flex-row">
         <Image
-          src={"/Image7.jpg"}
+          src="https://assistance24krakow.s3.eu-central-1.amazonaws.com/IMG-20230525-WA0005.jpg"
           alt="zdjęcie-pomoc-drogowa"
           width="1280"
           height="720"

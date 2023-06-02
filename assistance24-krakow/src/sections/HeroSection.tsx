@@ -15,7 +15,7 @@ const HeroSection = (props: Props) => {
             src="https://assistance24krakow.s3.eu-central-1.amazonaws.com/IMG-20230525-WA0002+(2).jpg"
             alt="Pomoc drogowa Kraków"
             fill
-            className="z-0 backdrop-brightness-50"
+            className="z-10 backdrop-brightness-50"
           />
         </div>
 

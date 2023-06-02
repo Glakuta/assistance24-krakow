@@ -10,14 +10,13 @@ const HeroSection = (props: Props) => {
   return (
     <div className="flex-col w-full pb-28">
       <div className="flex-col items-center justify-center  min-h-[600px] bg-hero bg-no-repeat bg-cover bg-opacity-60">
-        <div className="relative z-10 bg-black">
           <Image
             src="https://assistance24krakow.s3.eu-central-1.amazonaws.com/IMG-20230525-WA0002+(2).jpg"
             alt="Pomoc drogowa Kraków"
             fill
             className="z-10 relative"
           />
-        </div>
+        
 
         <NavBar />
         <h1 className="relative z-20 flex items-center justify-center p-24 mt-10 mb-6 text-3xl font-bold text-white md:p-16 whitespace-nowrap">

@@ -4,7 +4,7 @@ const nextConfig = {
     appDir: true,
   },
   images: {
-    domains: ["mechanik-chelm.s3.eu-central-1.amazonaws.com"],
+    domains: ["assistance24krakow.s3.eu-central-1.amazonaws.com"],
   },
 };
 

@@ -4,7 +4,7 @@ type Props = {}
 
 const NavBar = (props: Props) => {
   return (
-    <div className='relative flex flex-row justify-between p-5 mt-16 '>
+    <div className='relative z-20 flex flex-row justify-between p-5 mt-16 '>
         <div>Logo</div>
         <nav >
             <ul className='flex-row items-center hidden mt-3 lg:flex '>

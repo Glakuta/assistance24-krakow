@@ -1,5 +1,4 @@
 import Footer from '@/components/Footer'
-import NavBar from '@/components/NavBar'
 import TopBar from '@/components/Topbar'
 import AboutUs from '@/sections/AboutUs'
 import Contact from '@/sections/Contact'

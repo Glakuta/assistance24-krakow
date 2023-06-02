@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: http://assistance24-krakow.pl/
+
+# Sitemaps
+Sitemap: http://assistance24-krakow.pl/sitemap.xml

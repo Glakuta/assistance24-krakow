@@ -12,7 +12,9 @@ const TopBar = (props: Props) => {
       <div className="fixed flex flex-row justify-around w-full pt-4 pb-4 text-xl font-bold bg-primary-yellow ">
         <div className="flex flex-row items-start justify-between h">
           <AiFillPhone className="hidden m-auto md:block" />
-          <p className="hidden ml-1 mr-4 md:block">tel: 604 944 755</p>
+          <a href="tel: +48 604 944 755">
+            <p className="hidden ml-1 mr-4 md:block">tel: 604 944 755</p>
+          </a>
           <AiFillMail className="hidden m-auto md:block" />
           <p className="mt-auto mb-auto ml-1 text-lg md:text-xl whitespace-nowrap">
             assistance24-krakow@kontakt.pl

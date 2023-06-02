@@ -10,9 +10,11 @@ const Footer = (props: Props) => {
           <h4 className="ml-6 text-3xl font-bold text-white whitespace-nowrap">
             Pomoc drogowa
           </h4>
-          <p className="ml-5 text-3xl font-bold text-primary-yellow whitespace-nowrap">
-            +48 604 944 755
-          </p>
+          <a href="tel: +48 604 944 755">
+            <p className="ml-5 text-3xl font-bold text-primary-yellow whitespace-nowrap">
+              +48 604 944 755
+            </p>
+          </a>
         </div>
         <div>
           <p className="mt-4 ml-6 text-white ">

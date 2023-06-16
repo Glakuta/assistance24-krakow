@@ -8,7 +8,7 @@ type Props = {};
 
 const HeroSection = (props: Props) => {
   return (
-    <div className="flex-col w-full pb-28">
+    <div id="HeroSection" className="flex-col w-full pb-28">
       <div className="flex-col items-center justify-center  min-h-[600px] bg-hero bg-no-repeat bg-cover bg-opacity-60">
         <Image
           src="https://assistance24krakow.s3.eu-central-1.amazonaws.com/IMG-20230525-WA0002+(2).jpg"

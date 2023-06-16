@@ -5,7 +5,7 @@ type Props = {};
 
 const Contact = (props: Props) => {
   return (
-    <div>
+    <div id="Contact">
       <p className="p-24 text-3xl font-bold text-center">Kontakt</p>
       <div className="flex flex-col items-center justify-around pt-20 pb-24 m-auto sm:flex-row">
         <p className="mb-6 text-xl font-bold md:mb-0">
